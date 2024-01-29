@@ -1,3 +1,5 @@
+#install.packages("tidyverse")
+#install.packages("arrow)
 library(tidyverse)
 library(arrow)
 data = read_parquet("catB_train.parquet")
